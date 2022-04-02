@@ -14,7 +14,7 @@ def tabuada(msg):
         try:
             n = int(input(msg))
         except:
-            print('\033[1;31mErro. Digite um número inteiro !\033[m')
+            print('\033[1;31mErro!. Digite um número inteiro !\033[m')
         else:
             break
     print('='*50)
